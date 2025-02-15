@@ -1,0 +1,96 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5.3rem;
+}
+
+header {
+  text-align: center;
+  height: 220px;
+}
+
+header > p {
+  width: 78%;
+  margin: 2rem;
+}
+
+.h3-first {
+  margin-left: -10px;
+  font-weight: 100;
+  color: hsl(229, 6%, 78%);
+}
+
+.h3-second {
+  margin-left: -5px;
+  margin-bottom: -10px;
+}
+
+.h3-first, .h3-second {
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 375px;
+  aspect-ratio: 310 / 220;
+}
+
+.content {
+  margin: 2rem;
+  height: 220px;
+  border-radius: 3%;
+  box-shadow: 0px 30px 12px 0px hsl(229, 6%, 90%);
+}
+
+.content > * {
+  margin: 1.33rem;
+}
+
+.content__supervisor--color {
+  border-top: 3px solid cyan;
+}
+
+.content__team-builder--color {
+  border-top: 3px solid red;
+}
+
+.content__karma--color {
+  border-top: 3px solid orange;
+}
+
+.content__calculator--color {
+  border-top: 3px solid blue;
+}
+
+.description {
+  color: hsl(229, 6%, 78%);
+}
+
+img {
+  width: 90%;
+  height: 90%;
+}
+.icon-margin {
+  margin-left: 75%;
+  margin-top: 14%;
+}
+
+
+
+
+
+
+ 
+
+ 
+
